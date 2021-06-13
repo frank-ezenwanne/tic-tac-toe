@@ -1,0 +1,84 @@
+
+
+.body{
+	padding:0px;
+	margin:0px;
+	font-size:20px;
+}
+
+.heading{
+	color:white;
+	margin-left: 1.5rem;
+}
+.game-area{
+	margin-left:35%;
+	margin-top: 5rem;
+
+}
+.grid-section{
+	margin-top:2rem;
+	display: grid;
+	grid-template-columns: 10% 10% 10%;
+	
+}
+
+.grid-box{
+	font-size: 170%;
+	border:2px solid #09051c;
+	height:3rem;
+	background-color: white;
+	
+}
+
+.hover-class{
+	background-color: white;
+	transition: background-color !important;
+}
+
+.hover-class:hover{
+	background-color: lightgreen !important;
+}
+
+#who-won{
+	color:white;
+	}
+
+
+#button{
+	margin-top:1rem;
+}
+@media screen and (max-width:800px){
+	.grid-section{
+
+	grid-template-columns: 15% 15% 15%;
+}
+
+@media screen and (max-width:597px){
+	.grid-section{
+	grid-template-columns: 20% 20% 20%;
+}}
+
+@media screen and (max-width:400px){
+	.grid-section{
+	grid-template-columns: 25% 25% 25%;}
+
+	.game-area{
+	margin-left:22%;}
+}
+
+@media screen and (max-width:260px){
+		.grid-section{
+	grid-template-columns: 35% 35% 35%;}
+
+	.game-area{
+	margin-left:-5%;
+}
+#who-won{
+	margin-left:1rem;
+}
+}
+
+@media screen and (max-width:97px){
+		.grid-section{
+	grid-template-columns: 70% 70% 70%;}
+}
